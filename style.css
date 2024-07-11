@@ -1,0 +1,80 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+}
+h1{
+    font-family:monospace;
+    font-size: 4rem;
+}
+#container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border:solid 5px;
+    border-radius: 20px;
+    padding: 25px;
+    background-color: whitesmoke;
+}
+#lap-report{
+    font-family:monospace;
+    font-size: 2rem;
+}
+#time{
+    font-family:monospace;
+    font-size: 5rem;
+    color:hsl(0,0%,0%,30%);
+    font-weight:bold;
+    text-shadow: 2px 2px 2px hsl(0, 0%, 0%, 0.75);
+    margin-bottom:25px;
+}
+#button button{
+    font-size:1.5rem;
+    font-weight:bold;
+    padding:10px 20px;
+    margin:5px;
+    min-width: 125px;
+    border:none;
+    border-radius:100px;
+    cursor:pointer;
+    color:white;
+    transition: 0.5s ease-out;
+}
+#lap-report{
+    display: flex;
+    align-items:flex-start
+}
+#start{
+    background-color:hsla(113, 91%, 41%);
+
+}
+#start:hover{
+    background-color: green;
+    
+}
+#lap{
+    
+    background-color:rgb(221, 224, 4);
+
+}
+#lap:hover{
+    background-color: rgb(172, 184, 6);
+    
+}
+#stop{
+    background-color: red;
+
+}
+#stop:hover{
+    background-color:rgba(184, 0, 0);
+    
+}
+#reset{
+    background-color:blue;
+
+}
+#reset:hover{
+    background-color:darkblue;
+    
+}
